@@ -58,7 +58,7 @@ The experimental data in this project is derived from the **MIMIC-III** (Medical
 ### Prerequisites
 Before training, make sure the following conditions are met:
 1. All required dependencies are installed (see the [Prerequisites](#prerequisites) section for the full dependency list).
-2. Preprocessed data is correctly placed in the `./data` directory as described above.
+2. Data is correctly placed in the `./data` directory as described above.
 
 ### Training Commands
 Open the terminal, navigate to the **project root directory**, and execute the following commands:
@@ -68,3 +68,6 @@ cd src
 
 # Step 2: Start training with default parameters
 python train_MDCN.py
+
+# TODO
+To make the experiments more efficient, we developed some experimental scripts, which will be released along with the paper later.
