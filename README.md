@@ -68,6 +68,6 @@ cd src
 
 # Step 2: Start training with default parameters
 python train_MDCN.py
-
+```
 # TODO
 To make the experiments more efficient, we developed some experimental scripts, which will be released along with the paper later.
