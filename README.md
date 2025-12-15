@@ -28,29 +28,24 @@ The experimental data in this project is derived from the **MIMIC-III** (Medical
 - MIMIC-IV: [PhysioNet/MIMIC-IV Clinical Database](https://physionet.org/content/mimiciv/2.2/)
 
 # Documentation
-`--src`
-
-  `│--README.md`
+```
+--src
+  │--README.md
+  │--data_loader.py
+  │--train.py
+  │--model_net.py
+  │--outer_models.py
+  │--util.py
   
-  `│--data_loader.py`
-  
-  `│--train.py`
-  
-  `│--model_net.py`
-  
-  `│--outer_models.py`
-  
-  `│--util.py`
-  
-`--data`
-  `│--ddi_A_final.pkl`
-  `│--records_final_iii.pkl`
-  `│--records_final_iv.pkl`
-  `│--voc_final_iii.pkl`
-  `│--voc_final_iv.pkl`
-  `│--pattern_records_final.pkl`
-  `│--pattern_records_final.pkl`
-  `│--basic_combos_iii.pkl`
-  `│--basic_combos_iv.pkl`
-  `│--processing.py`
-
+--data
+  │--ddi_A_final.pkl
+  │--records_final_iii.pkl
+  │--records_final_iv.pkl
+  │--voc_final_iii.pkl
+  │--voc_final_iv.pkl
+  │--pattern_records_final.pkl
+  │--pattern_records_final.pkl
+  │--basic_combos_iii.pkl
+  │--basic_combos_iv.pkl
+  │--processing.py
+```
