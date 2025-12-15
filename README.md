@@ -28,11 +28,4 @@ The experimental data in this project is derived from the **MIMIC-III** (Medical
 - MIMIC-IV: [PhysioNet/MIMIC-IV Clinical Database](https://physionet.org/content/mimiciv/2.2/)
 
 # Documentation
-| File Name                  | Purpose                                                                 |
-|----------------------------|-------------------------------------------------------------------------|
-| `ddi_A_final.pkl`          | Precomputed DDI matrix (indicates interaction risk between drug pairs)  |
-| `records_final_iii/iv.pkl` | Task-specific patient records (MIMIC-III/IV subsets: features + labels) |
-| `voc_final_iii/iv.pkl`     | Vocabulary mappings (encodes clinical features/drug labels to indices)  |
-| `pattern_records_final.pkl`| Pattern-extracted patient data (optimized for sequence/template-based tasks) |
-| `basic_combos_iii/iv.pkl`  | Common valid drug combinations (from MIMIC, used for baseline/comparison) |
-| `processing.py`            | Raw data processing pipeline (reproduces .pkl files from MIMIC raw data) |
+├── src/│ ├── README.md│ ├── data_loader.py│ ├── train.py│ ├── model_net.py│ ├── outer_models.py│ └── util.py│└── data/├── ddi_A_final.pkl├── records_final_iii.pkl├── records_final_iv.pkl├── voc_final_iii.pkl├── voc_final_iv.pkl├── pattern_records_final.pkl├── pattern_records_final.pkl├── basic_combos_iii.pkl├── basic_combos_iv.pkl└── processing.py
