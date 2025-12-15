@@ -31,21 +31,25 @@ The experimental data in this project is derived from the **MIMIC-III** (Medical
 ```
 --src
   │--README.md
-  │--data_loader.py
-  │--train.py
-  │--model_net.py
-  │--outer_models.py
+  │--train_MDCN.py
   │--util.py
+  │--models.py
+  │--layers.py
+  │--attention.py
+  │--SetTransformer.py
   
 --data
+  │--atc2rxnorm.pkl
   │--ddi_A_final.pkl
-  │--records_final_iii.pkl
-  │--records_final_iv.pkl
-  │--voc_final_iii.pkl
-  │--voc_final_iv.pkl
-  │--pattern_records_final.pkl
-  │--pattern_records_final.pkl
-  │--basic_combos_iii.pkl
-  │--basic_combos_iv.pkl
-  │--processing.py
+  │--ddi_mask_H.pkl
+  │--ehr_adj_final_newone.pkl
+  │--records_final.pkl
+  │--substructure_smiles.pkl
+  │--voc_final.pkl
+
+--gnn
+  │--GNNConv.py
+  │--GNNs.py
+  │--_init_.py
+  │--utils.py
 ```
