@@ -24,5 +24,15 @@ Ensure your local environment meets the following requirements before installati
 # Dataset
 We provide the dataset in the `data/` folder. 
 The experimental data in this project is derived from the **MIMIC-III** (Medical Information Mart for Intensive Care III) and **MIMIC-IV** datasets — two large-scale public clinical databases containing de-identified intensive care unit (ICU) patient records. For complete raw data (including full clinical notes, lab results, and prescription records), please refer to the official MIMIC repositories:
-- MIMIC-III: [PhysioNet/MIMIC-III Clinical Database](https://physionet.org/content/mimic3/1.4/)
+- MIMIC-III: [PhysioNet/MIMIC-III Clinical Database](https://physionet.org/content/mimiciii/1.4/)
 - MIMIC-IV: [PhysioNet/MIMIC-IV Clinical Database](https://physionet.org/content/mimiciv/2.2/)
+
+# Documentation
+| File Name                  | Purpose                                                                 |
+|----------------------------|-------------------------------------------------------------------------|
+| `ddi_A_final.pkl`          | Precomputed DDI matrix (indicates interaction risk between drug pairs)  |
+| `records_final_iii/iv.pkl` | Task-specific patient records (MIMIC-III/IV subsets: features + labels) |
+| `voc_final_iii/iv.pkl`     | Vocabulary mappings (encodes clinical features/drug labels to indices)  |
+| `pattern_records_final.pkl`| Pattern-extracted patient data (optimized for sequence/template-based tasks) |
+| `basic_combos_iii/iv.pkl`  | Common valid drug combinations (from MIMIC, used for baseline/comparison) |
+| `processing.py`            | Raw data processing pipeline (reproduces .pkl files from MIMIC raw data) |
