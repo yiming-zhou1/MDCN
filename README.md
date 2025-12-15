@@ -1,4 +1,4 @@
-<img width="1718" height="856" alt="image" src="https://github.com/user-attachments/assets/6839f8d2-842f-44d5-a865-1114e21bad40" /># MDCN
+# MDCN
 This is the code for our paper `Multi-angle Joint Distance Network for Combinatorial Medication Recommendation`.
 
 For replication of the drug recommendation outcomes reported in this paper, please refer to the guidelines below.
@@ -28,23 +28,23 @@ The experimental data in this project is derived from the **MIMIC-III** (Medical
 - MIMIC-IV: [PhysioNet/MIMIC-IV Clinical Database](https://physionet.org/content/mimiciv/2.2/)
 
 # Documentation
---src
-  │--README.md
-  │--data_loader.py
-  │--train.py
-  │--model_net.py
-  │--outer_models.py
-  │--util.py
+`--src`
+  `│--README.md`
+  `│--data_loader.py`
+  `│--train.py`
+  `│--model_net.py`
+  `│--outer_models.py`
+  `│--util.py`
   
---data
-  │--ddi_A_final.pkl
-  │--records_final_iii.pkl
-  │--records_final_iv.pkl
-  │--voc_final_iii.pkl
-  │--voc_final_iv.pkl
-  │--pattern_records_final.pkl
-  │--pattern_records_final.pkl
-  │--basic_combos_iii.pkl
-  │--basic_combos_iv.pkl
-  │--processing.py
+`--data`
+  `│--ddi_A_final.pkl`
+  `│--records_final_iii.pkl`
+  `│--records_final_iv.pkl`
+  `│--voc_final_iii.pkl`
+  `│--voc_final_iv.pkl`
+  `│--pattern_records_final.pkl`
+  `│--pattern_records_final.pkl`
+  `│--basic_combos_iii.pkl`
+  `│--basic_combos_iv.pkl`
+  `│--processing.py`
 
